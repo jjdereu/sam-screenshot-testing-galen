@@ -1,0 +1,54 @@
+{
+  "testId" : "2-home-page-on-tablet-device",
+  "name" : "Home page on tablet device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: loginPageSam.gspec included tags: 600x800",
+      "status" : "error",
+      "time" : 1511440599759,
+      "includedTags" : [ "600x800" ],
+      "sections" : [ {
+        "name" : "Main section",
+        "place" : {
+          "filePath" : "loginPageSam.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "username",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "loginPageSam.gspec",
+              "lineNumber" : 7
+            },
+            "name" : "height 40px",
+            "errors" : [ "\"username\" height is 60px instead of 40px" ],
+            "highlight" : [ "username" ]
+          } ]
+        }, {
+          "name" : "password",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "loginPageSam.gspec",
+              "lineNumber" : 9
+            },
+            "name" : "height 40px",
+            "errors" : [ "\"password\" height is 60px instead of 40px" ],
+            "highlight" : [ "password" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "password" : {
+          "area" : [ 155, 172, 290, 60 ]
+        },
+        "username" : {
+          "area" : [ 155, 97, 290, 60 ]
+        }
+      },
+      "screenshot" : "layout-2-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

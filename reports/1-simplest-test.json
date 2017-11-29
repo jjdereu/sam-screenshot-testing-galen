@@ -1,0 +1,54 @@
+{
+  "testId" : "1-simplest-test",
+  "name" : "Simplest test",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: loginPageSam.gspec included tags: [object Object]",
+      "status" : "error",
+      "time" : 1511440280493,
+      "includedTags" : [ "[object Object]" ],
+      "sections" : [ {
+        "name" : "Main section",
+        "place" : {
+          "filePath" : "loginPageSam.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "username",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "loginPageSam.gspec",
+              "lineNumber" : 7
+            },
+            "name" : "height 40px",
+            "errors" : [ "\"username\" height is 60px instead of 40px" ],
+            "highlight" : [ "username" ]
+          } ]
+        }, {
+          "name" : "password",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "loginPageSam.gspec",
+              "lineNumber" : 9
+            },
+            "name" : "height 40px",
+            "errors" : [ "\"password\" height is 60px instead of 40px" ],
+            "highlight" : [ "password" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "password" : {
+          "area" : [ 305, 172, 590, 60 ]
+        },
+        "username" : {
+          "area" : [ 305, 97, 590, 60 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "testId" : "1-testing-on-desktop-on-1024x768-size",
+  "name" : "Testing on desktop on 1024x768 size",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Basic layout check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "Check layout: specs/loginPageSam.gspec included tags: 1024x768",
+        "status" : "info",
+        "time" : 1511447984664,
+        "includedTags" : [ "1024x768" ],
+        "sections" : [ {
+          "name" : "Login section",
+          "place" : {
+            "filePath" : "specs/loginPageSam.gspec",
+            "lineNumber" : 10
+          },
+          "objects" : [ {
+            "name" : "username",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageSam.gspec",
+                "lineNumber" : 12
+              },
+              "name" : "height 60px",
+              "highlight" : [ "username" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageSam.gspec",
+                "lineNumber" : 13
+              },
+              "name" : "width 502px",
+              "highlight" : [ "username" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageSam.gspec",
+                "lineNumber" : 14
+              },
+              "name" : "inside container",
+              "highlight" : [ "username", "container" ]
+            } ]
+          }, {
+            "name" : "password",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageSam.gspec",
+                "lineNumber" : 16
+              },
+              "name" : "height 60px",
+              "highlight" : [ "password" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageSam.gspec",
+                "lineNumber" : 17
+              },
+              "name" : "width 502px",
+              "highlight" : [ "password" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageSam.gspec",
+                "lineNumber" : 18
+              },
+              "name" : "inside container",
+              "highlight" : [ "password", "container" ]
+            } ]
+          }, {
+            "name" : "loginBtn",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageSam.gspec",
+                "lineNumber" : 20
+              },
+              "name" : "css background-color is \"rgba(153, 229, 215, 1)\"",
+              "highlight" : [ "loginBtn" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageSam.gspec",
+                "lineNumber" : 21
+              },
+              "name" : "height 75px",
+              "highlight" : [ "loginBtn" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageSam.gspec",
+                "lineNumber" : 22
+              },
+              "name" : "inside container",
+              "highlight" : [ "loginBtn", "container" ]
+            } ]
+          } ]
+        }, {
+          "name" : "Header section",
+          "place" : {
+            "filePath" : "specs/loginPageSam.gspec",
+            "lineNumber" : 24
+          },
+          "objects" : [ {
+            "name" : "header",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageSam.gspec",
+                "lineNumber" : 26
+              },
+              "name" : "height 67px",
+              "highlight" : [ "header" ]
+            } ]
+          } ]
+        } ],
+        "objects" : {
+          "container" : {
+            "area" : [ 251, 67, 522, 270 ]
+          },
+          "password" : {
+            "area" : [ 261, 172, 502, 60 ]
+          },
+          "loginBtn" : {
+            "area" : [ 261, 247, 502, 75 ]
+          },
+          "header" : {
+            "area" : [ -10, 0, 1044, 67 ]
+          },
+          "username" : {
+            "area" : [ 261, 97, 502, 60 ]
+          }
+        },
+        "screenshot" : "layout-1-screenshot.png",
+        "type" : "layout"
+      } ],
+      "time" : 1511447982899,
+      "type" : "node"
+    }, {
+      "name" : "Checking error box",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "Type \"foo\" to usernameInput on Login Page",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "css: #login-page__input-username",
+          "type" : "text"
+        } ],
+        "time" : 1511447984664,
+        "type" : "node"
+      }, {
+        "name" : "Type \"default\" to passwordInput on Login Page",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "css: #login-page__input-password",
+          "type" : "text"
+        } ],
+        "time" : 1511447984735,
+        "type" : "node"
+      }, {
+        "name" : "Click loginButton on Login Page",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "css: #login-page #login-page__btn-login",
+          "type" : "text"
+        } ],
+        "time" : 1511447984788,
+        "type" : "node"
+      }, {
+        "name" : "Check layout: specs/loginPageWithErrorsSam.gspec included tags: 1024x768",
+        "status" : "info",
+        "time" : 1511447985725,
+        "includedTags" : [ "1024x768" ],
+        "sections" : [ {
+          "name" : "Login section",
+          "place" : {
+            "filePath" : "specs/loginPageWithErrorsSam.gspec",
+            "lineNumber" : 10
+          },
+          "objects" : [ {
+            "name" : "username",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 12
+              },
+              "name" : "height 60px",
+              "highlight" : [ "username" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 13
+              },
+              "name" : "width 502px",
+              "highlight" : [ "username" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 14
+              },
+              "name" : "inside container",
+              "highlight" : [ "username", "container" ]
+            } ]
+          }, {
+            "name" : "password",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 16
+              },
+              "name" : "height 60px",
+              "highlight" : [ "password" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 17
+              },
+              "name" : "width 502px",
+              "highlight" : [ "password" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 18
+              },
+              "name" : "inside container",
+              "highlight" : [ "password", "container" ]
+            } ]
+          }, {
+            "name" : "loginBtn",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 20
+              },
+              "name" : "css background-color is \"rgba(0, 190, 155, 1)\"",
+              "highlight" : [ "loginBtn" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 21
+              },
+              "name" : "height 75px",
+              "highlight" : [ "loginBtn" ]
+            }, {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 22
+              },
+              "name" : "inside container",
+              "highlight" : [ "loginBtn", "container" ]
+            } ]
+          }, {
+            "name" : "errorMsg",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 24
+              },
+              "name" : "css color is \"rgba(255, 64, 64, 1)\"",
+              "highlight" : [ "errorMsg" ]
+            } ]
+          } ]
+        }, {
+          "name" : "Header section",
+          "place" : {
+            "filePath" : "specs/loginPageWithErrorsSam.gspec",
+            "lineNumber" : 26
+          },
+          "objects" : [ {
+            "name" : "header",
+            "specs" : [ {
+              "status" : "info",
+              "place" : {
+                "filePath" : "specs/loginPageWithErrorsSam.gspec",
+                "lineNumber" : 28
+              },
+              "name" : "height 67px",
+              "highlight" : [ "header" ]
+            } ]
+          } ]
+        } ],
+        "objects" : {
+          "container" : {
+            "area" : [ 251, 67, 522, 310 ]
+          },
+          "password" : {
+            "area" : [ 261, 172, 502, 60 ]
+          },
+          "loginBtn" : {
+            "area" : [ 261, 287, 502, 75 ]
+          },
+          "header" : {
+            "area" : [ -10, 0, 1044, 67 ]
+          },
+          "username" : {
+            "area" : [ 261, 97, 502, 60 ]
+          },
+          "errorMsg" : {
+            "area" : [ 261, 247, 502, 25 ]
+          }
+        },
+        "screenshot" : "layout-2-screenshot.png",
+        "type" : "layout"
+      } ],
+      "time" : 1511447984664,
+      "type" : "node"
+    } ]
+  }
+}

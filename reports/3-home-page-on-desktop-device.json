@@ -1,0 +1,54 @@
+{
+  "testId" : "3-home-page-on-desktop-device",
+  "name" : "Home page on desktop device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: loginPageSam.gspec included tags: 1024x768",
+      "status" : "error",
+      "time" : 1511440604039,
+      "includedTags" : [ "1024x768" ],
+      "sections" : [ {
+        "name" : "Main section",
+        "place" : {
+          "filePath" : "loginPageSam.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "username",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "loginPageSam.gspec",
+              "lineNumber" : 7
+            },
+            "name" : "height 40px",
+            "errors" : [ "\"username\" height is 60px instead of 40px" ],
+            "highlight" : [ "username" ]
+          } ]
+        }, {
+          "name" : "password",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "loginPageSam.gspec",
+              "lineNumber" : 9
+            },
+            "name" : "height 40px",
+            "errors" : [ "\"password\" height is 60px instead of 40px" ],
+            "highlight" : [ "password" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "password" : {
+          "area" : [ 261, 172, 502, 60 ]
+        },
+        "username" : {
+          "area" : [ 261, 97, 502, 60 ]
+        }
+      },
+      "screenshot" : "layout-3-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "testId" : "1-home-page.gspec",
+  "name" : "home-page.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  home-page.gspec --url https://tst.samsafety.nl --size 640x480 --htmlreport reports -Dwebdriver.chrome.driver=/usr/local/lib/node_modules/galenframework-cli/node_modules/chromedriver/lib/chromedriver/chromedriver -Dwebdriver.gecko.driver=/usr/local/lib/node_modules/galenframework-cli/node_modules/geckodriver/bin/geckodriver",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "FileNotFoundException: home-page.gspec",
+          "status" : "error",
+          "time" : 1511434370988,
+          "stacktrace" : "java.io.FileNotFoundException: home-page.gspec\n\tat com.galenframework.speclang2.pagespec.PageSpecReader.read(PageSpecReader.java:43)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:68)\n\tat com.galenframework.api.Galen.checkLayout(Galen.java:59)\n\tat com.galenframework.suite.actions.GalenPageActionCheck.execute(GalenPageActionCheck.java:53)\n\tat com.galenframework.runner.GalenPageRunner.executeAction(GalenPageRunner.java:84)\n\tat com.galenframework.runner.GalenPageRunner.run(GalenPageRunner.java:76)\n\tat com.galenframework.runner.GalenBasicTestRunner.runTest(GalenBasicTestRunner.java:76)\n\tat com.galenframework.tests.GalenBasicTest.execute(GalenBasicTest.java:55)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\n\tat java.lang.Thread.run(Thread.java:748)\n",
+          "type" : "node"
+        } ],
+        "time" : 1511434370976,
+        "type" : "node"
+      } ],
+      "time" : 1511434365804,
+      "type" : "node"
+    } ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "testId" : "1-home-page-on-mobile-device",
+  "name" : "Home page on mobile device",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: loginPageSam.gspec included tags: 400x700",
+      "status" : "error",
+      "time" : 1511440596700,
+      "includedTags" : [ "400x700" ],
+      "sections" : [ {
+        "name" : "Main section",
+        "place" : {
+          "filePath" : "loginPageSam.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "username",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "loginPageSam.gspec",
+              "lineNumber" : 7
+            },
+            "name" : "height 40px",
+            "errors" : [ "\"username\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        }, {
+          "name" : "password",
+          "specs" : [ {
+            "status" : "error",
+            "place" : {
+              "filePath" : "loginPageSam.gspec",
+              "lineNumber" : 9
+            },
+            "name" : "height 40px",
+            "errors" : [ "\"password\" is not visible on page" ],
+            "highlight" : [ ]
+          } ]
+        } ]
+      } ],
+      "objects" : { },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

@@ -1,0 +1,28 @@
+@import common.gspec
+
+@objects
+    username          #login-page__input-username
+    password          #login-page__input-password
+    loginBtn          #login-page__btn-login
+    errorMsg          #login-page__error-message
+    container         #login-page article section
+
+= Login section =
+    username:
+        height 60px
+        width 502px
+        inside container
+    password:
+        height 60px
+        width 502px
+        inside container
+    loginBtn:
+        css background-color is "rgba(0, 190, 155, 1)"
+        height 75px
+        inside container
+    errorMsg:
+        css color is "rgba(255, 64, 64, 1)"
+
+= Header section =
+    header:
+        height ${header_height}

@@ -1,0 +1,65 @@
+{
+  "testId" : "1-loginpagesam.gspec",
+  "name" : "loginPageSam.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  loginPageSam.gspec --url https://tst.samsafety.nl --size 640x480 --htmlreport reports -Dwebdriver.chrome.driver=/usr/local/lib/node_modules/galenframework-cli/node_modules/chromedriver/lib/chromedriver/chromedriver -Dwebdriver.gecko.driver=/usr/local/lib/node_modules/galenframework-cli/node_modules/geckodriver/bin/geckodriver",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: loginPageSam.gspec included tags: ",
+          "status" : "error",
+          "time" : 1511434636142,
+          "sections" : [ {
+            "name" : "Main section",
+            "place" : {
+              "filePath" : "loginPageSam.gspec",
+              "lineNumber" : 5
+            },
+            "objects" : [ {
+              "name" : "username",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "loginPageSam.gspec",
+                  "lineNumber" : 7
+                },
+                "name" : "height 40px",
+                "errors" : [ "\"username\" height is 60px instead of 40px" ],
+                "highlight" : [ "username" ]
+              } ]
+            }, {
+              "name" : "password",
+              "specs" : [ {
+                "status" : "error",
+                "place" : {
+                  "filePath" : "loginPageSam.gspec",
+                  "lineNumber" : 9
+                },
+                "name" : "height 40px",
+                "errors" : [ "\"password\" height is 60px instead of 40px" ],
+                "highlight" : [ "password" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "password" : {
+              "area" : [ 165, 172, 310, 60 ]
+            },
+            "username" : {
+              "area" : [ 165, 97, 310, 60 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1511434634347,
+        "type" : "node"
+      } ],
+      "time" : 1511434630279,
+      "type" : "node"
+    } ]
+  }
+}
